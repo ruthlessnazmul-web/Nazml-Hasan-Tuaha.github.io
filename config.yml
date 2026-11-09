@@ -1,0 +1,78 @@
+backend:
+  name: github
+  repo: ruthlessnazmul-web/Nazml-Hasan-Tuaha.github.io
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+collections:
+  - name: "settings"
+    label: "Site settings"
+    files:
+      - name: "contact"
+        label: "Contact details"
+        file: "data/site.json"
+        format: "json"
+        fields:
+          - { label: "WhatsApp number (country code, no + or spaces)", name: "whatsapp", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "LinkedIn link", name: "linkedin", widget: "string", required: false }
+          - { label: "Facebook link", name: "facebook", widget: "string", required: false }
+
+  - name: "services"
+    label: "Services"
+    files:
+      - name: "services"
+        label: "All services"
+        file: "data/services.json"
+        format: "json"
+        fields:
+          - label: "Services"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Short description", name: "description", widget: "text" }
+              - { label: "Bullet points", name: "points", widget: "list", required: false, field: { label: "Point", name: "point", widget: "string" } }
+
+  - name: "projects"
+    label: "Projects"
+    files:
+      - name: "projects"
+        label: "All projects"
+        file: "data/projects.json"
+        format: "json"
+        fields:
+          - label: "Projects"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Marketing", value: "marketing" }
+                  - { label: "Branding", value: "branding" }
+                  - { label: "Social media", value: "social" }
+                  - { label: "Research", value: "research" }
+              - { label: "Short summary", name: "summary", widget: "text" }
+              - { label: "Date or year", name: "date", widget: "string", required: false }
+              - { label: "Cover image", name: "cover", widget: "image", required: false }
+              - { label: "Tags", name: "tags", widget: "list", required: false, field: { label: "Tag", name: "tag", widget: "string" } }
+              - { label: "Full description", name: "description", widget: "text", required: false, hint: "Leave a blank line to start a new paragraph." }
+              - label: "Results"
+                name: "results"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Number", name: "number", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+              - { label: "YouTube or Facebook video link", name: "video_url", widget: "string", required: false }
+              - { label: "Video file (small clip only)", name: "video_file", widget: "file", required: false }
+              - { label: "Photo gallery", name: "gallery", widget: "list", required: false, field: { label: "Photo", name: "photo", widget: "image" } }
+              - { label: "Project link (Drive, Behance...)", name: "link_url", widget: "string", required: false }
+              - { label: "Link button text", name: "link_label", widget: "string", required: false }
