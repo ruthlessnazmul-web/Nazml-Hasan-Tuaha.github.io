@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "title": "Digital Marketing Campaign",
+      "category": "marketing",
+      "summary": "A short line about what this project is and what you achieved.",
+      "date": "2026",
+      "cover": "",
+      "tags": ["Marketing", "Campaign"],
+      "description": "Write the full story of this project here.\n\nExplain the problem, what you did, and what you learned. Leave a blank line to start a new paragraph.",
+      "results": [
+        { "number": "00%", "label": "Add your result here" }
+      ],
+      "video_url": "",
+      "video_file": "",
+      "gallery": [],
+      "link_url": "",
+      "link_label": ""
+    },
+    {
+      "title": "Brand Strategy Project",
+      "category": "branding",
+      "summary": "A short line about what this project is and what you achieved.",
+      "date": "2026",
+      "cover": "",
+      "tags": ["Marketing", "Branding"],
+      "description": "Write the full story of this project here.\n\nExplain the problem, what you did, and what you learned.",
+      "results": [],
+      "video_url": "",
+      "video_file": "",
+      "gallery": [],
+      "link_url": "",
+      "link_label": ""
+    },
+    {
+      "title": "Social Media Campaign",
+      "category": "social",
+      "summary": "A short line about what this project is and what you achieved.",
+      "date": "2026",
+      "cover": "",
+      "tags": ["Social media", "Content"],
+      "description": "Write the full story of this project here.\n\nExplain the problem, what you did, and what you learned.",
+      "results": [],
+      "video_url": "",
+      "video_file": "",
+      "gallery": [],
+      "link_url": "",
+      "link_label": ""
+    },
+    {
+      "title": "Market Research Report",
+      "category": "research",
+      "summary": "A short line about what this project is and what you achieved.",
+      "date": "2026",
+      "cover": "",
+      "tags": ["Research", "Analysis"],
+      "description": "Write the full story of this project here.\n\nExplain the problem, what you did, and what you learned.",
+      "results": [],
+      "video_url": "",
+      "video_file": "",
+      "gallery": [],
+      "link_url": "",
+      "link_label": ""
+    },
+    {
+      "title": "Email Marketing Plan",
+      "category": "marketing",
+      "summary": "A short line about what this project is and what you achieved.",
+      "date": "2026",
+      "cover": "",
+      "tags": ["Marketing"],
+      "description": "Write the full story of this project here.\n\nExplain the problem, what you did, and what you learned.",
+      "results": [],
+      "video_url": "",
+      "video_file": "",
+      "gallery": [],
+      "link_url": "",
+      "link_label": ""
+    },
+    {
+      "title": "Brand Identity Concept",
+      "category": "branding",
+      "summary": "A short line about what this project is and what you achieved.",
+      "date": "2026",
+      "cover": "",
+      "tags": ["Branding"],
+      "description": "Write the full story of this project here.\n\nExplain the problem, what you did, and what you learned.",
+      "results": [],
+      "video_url": "",
+      "video_file": "",
+      "gallery": [],
+      "link_url": "",
+      "link_label": ""
+    }
+  ]
+}

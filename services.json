@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "title": "Digital Marketing",
+      "description": "Campaigns that reach the right people and turn attention into real results.",
+      "points": ["Campaign planning", "Audience targeting", "Performance tracking"]
+    },
+    {
+      "title": "Brand Strategy",
+      "description": "Clear positioning and a strong identity that makes a brand easy to remember.",
+      "points": ["Brand positioning", "Voice and messaging", "Competitor analysis"]
+    },
+    {
+      "title": "Content and Social Media",
+      "description": "Engaging content ideas and social media plans that grow an audience.",
+      "points": ["Content calendar", "Post and caption ideas", "Community growth"]
+    },
+    {
+      "title": "Market Research",
+      "description": "Data-backed insights about customers and competitors to guide smart decisions.",
+      "points": ["Customer surveys", "Trend analysis", "Clear summary reports"]
+    }
+  ]
+}
