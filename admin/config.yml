@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: ruthlessnazmul-web/ruthlessnazmul-web.github.io
+  repo: ruthlessnazmul-web/Nazmul-Hasan-Tuaha.github.io
   branch: main
   site_domain: magenta-pony-b2cf2d.netlify.app
 
