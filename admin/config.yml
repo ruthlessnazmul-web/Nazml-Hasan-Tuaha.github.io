@@ -1,7 +1,8 @@
 backend:
   name: github
-  repo: ruthlessnazmul-web/Nazml-Hasan-Tuaha.github.io
+  repo: ruthlessnazmul-web/ruthlessnazmul-web.github.io
   branch: main
+  site_domain: magenta-pony-b2cf2d.netlify.app
 
 media_folder: "images/uploads"
 public_folder: "images/uploads"
